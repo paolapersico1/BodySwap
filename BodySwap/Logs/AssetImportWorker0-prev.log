@@ -1,0 +1,692 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32658 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49653
+Successfully changed project path to: C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap
+C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 99.77 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.7f1 (dd97f2c94397)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     7988 MB
+    Driver:   30.0.14.9613
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002209 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 38.33 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.085471 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.30 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.129 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.4 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2215.
+Total: 2.281900 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.060700 ms MarkObjects: 1.940800 ms  DeleteObjects: 0.098900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Drone_Spawn_FX/Apparition.prefab
+  artifactKey: Guid(87bcf35f070aa594aa98f8166cc23516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Drone_Spawn_FX/Apparition.prefab using Guid(87bcf35f070aa594aa98f8166cc23516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75991bff26f250324218036cfb052cfe') in 0.070967 seconds
+  Import took 0.074696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/RedBlastExplosion.prefab
+  artifactKey: Guid(2c032cea9b945c4419585e346249d2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/RedBlastExplosion.prefab using Guid(2c032cea9b945c4419585e346249d2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623961c190500a00b31ad4910cdc4888') in 0.009706 seconds
+  Import took 0.012933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Jupiter/Prefab/Jupiter.prefab
+  artifactKey: Guid(148a97347331222469108a57869a5840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Jupiter/Prefab/Jupiter.prefab using Guid(148a97347331222469108a57869a5840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73f034fb88a1924d3a6987123a19a2ce') in 0.214152 seconds
+  Import took 0.217117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/ArUco Drone.prefab
+  artifactKey: Guid(e37b00fea39512342958c1b3b1cb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/ArUco Drone.prefab using Guid(e37b00fea39512342958c1b3b1cb87aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413db6ddb7f2a2eac95545f2f18038e1') in 0.127230 seconds
+  Import took 0.131346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ZED/Examples/GreenScreen/Prefabs/ZED_GreenScreen.prefab
+  artifactKey: Guid(802145764afddb545a3f8d0b72a5f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/GreenScreen/Prefabs/ZED_GreenScreen.prefab using Guid(802145764afddb545a3f8d0b72a5f8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7423dd787eb2d903e231f4bb0dfc0be3') in 0.021998 seconds
+  Import took 0.024805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate.prefab
+  artifactKey: Guid(12263925bd92ff44a998598877e693a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate.prefab using Guid(12263925bd92ff44a998598877e693a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64bff29974429698e4fe53426e00c949') in 0.204836 seconds
+  Import took 0.207988 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Neptune/Prefab/Neptune.prefab
+  artifactKey: Guid(3ba27427979c9dd4fb5d9a76d768b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Neptune/Prefab/Neptune.prefab using Guid(3ba27427979c9dd4fb5d9a76d768b75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af695cfa1f1a6cf0b48de6cc0e488ea3') in 0.014060 seconds
+  Import took 0.017210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/Plane.prefab
+  artifactKey: Guid(a8c20579481be8e41a553aa0337494c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/Plane.prefab using Guid(a8c20579481be8e41a553aa0337494c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb5e8fef07255f50e4b6e513b2fb70f4') in 0.012723 seconds
+  Import took 0.015703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/boum.prefab
+  artifactKey: Guid(54890063654dc3c4f86ec9441925c9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/boum.prefab using Guid(54890063654dc3c4f86ec9441925c9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6356deec7c8268b2d1c2ceaae1e3707f') in 0.008064 seconds
+  Import took 0.010946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Earth/Prefabs/Earth.prefab
+  artifactKey: Guid(c01defd6b6553644c95eaca2bb889425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Earth/Prefabs/Earth.prefab using Guid(c01defd6b6553644c95eaca2bb889425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2b3a0a611d30c7fc11e69fdabc42b8') in 0.017874 seconds
+  Import took 0.021034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/ZED/Examples/Plane Detection/Prefabs/UI_Canvas.prefab
+  artifactKey: Guid(e118d12ab4eb21e488383f4b65090bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Plane Detection/Prefabs/UI_Canvas.prefab using Guid(e118d12ab4eb21e488383f4b65090bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7482d453c4f09e6d53b00c59e5f5db8') in 0.018431 seconds
+  Import took 0.021372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/DamageSmoke_FX/damage smoke.prefab
+  artifactKey: Guid(94dea998edbfbf946ac2c665176a2724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/DamageSmoke_FX/damage smoke.prefab using Guid(94dea998edbfbf946ac2c665176a2724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cbe67824062514d3eb8f3d6ba31a4f') in 0.008470 seconds
+  Import took 0.011678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/ArUco Drone Laser.prefab
+  artifactKey: Guid(4318ad38e6e8edf40b49aecab471afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/ArUco Drone Laser.prefab using Guid(4318ad38e6e8edf40b49aecab471afaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2e971b17347f3c154e2131c4144644') in 0.086337 seconds
+  Import took 0.090445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/ZED/Examples/Object Detection/Prefabs/3D Bounding Box.prefab
+  artifactKey: Guid(2d803190bc4738d4daf5932468a5495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Object Detection/Prefabs/3D Bounding Box.prefab using Guid(2d803190bc4738d4daf5932468a5495e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac7ef9217f9548f3f02e4505fc3d72e') in 0.015213 seconds
+  Import took 0.018349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/AutoCalibration Ball.prefab
+  artifactKey: Guid(25fe7e0e159733940984d9dc83381f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/AutoCalibration Ball.prefab using Guid(25fe7e0e159733940984d9dc83381f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b415dfa4e49a4e0e3075ca7cc8c0ade') in 0.347601 seconds
+  Import took 0.350573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hitmodif5.prefab
+  artifactKey: Guid(a11d4709988fe3b408f34030ec47054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hitmodif5.prefab using Guid(a11d4709988fe3b408f34030ec47054a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00614603cada88064558047293172b6') in 0.008489 seconds
+  Import took 0.011799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/Simple Laser Gun Right.prefab
+  artifactKey: Guid(558a4b76067e3e44089fbed55a2687e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/Simple Laser Gun Right.prefab using Guid(558a4b76067e3e44089fbed55a2687e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e55d5b617c7b02fd7daf2a9d77a066f') in 0.182333 seconds
+  Import took 0.186207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ZED/Examples/Movie Screen/Speakers/Speakers Reactor/reactorspeakers.prefab
+  artifactKey: Guid(bf94b642ddfec3949b65e1ae31364cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Movie Screen/Speakers/Speakers Reactor/reactorspeakers.prefab using Guid(bf94b642ddfec3949b65e1ae31364cf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ffb65e18314b46c07765f5cfd8e779') in 0.016103 seconds
+  Import took 0.019450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/Virtual Canvas.prefab
+  artifactKey: Guid(4899bf235f2a6974288bc0989e3dd88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/Virtual Canvas.prefab using Guid(4899bf235f2a6974288bc0989e3dd88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e4420fe062ca6c54eeea9a4ce9cd48') in 0.009316 seconds
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ZED/Prefabs/ZED_Rig_Mono.prefab
+  artifactKey: Guid(76db3eb81fd21ae45bab5204e324ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Prefabs/ZED_Rig_Mono.prefab using Guid(76db3eb81fd21ae45bab5204e324ae42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '522c64347f1a3670a36726b88e916783') in 0.007289 seconds
+  Import took 0.010359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hitred.prefab
+  artifactKey: Guid(33e3a4d3458123449b696304cb4838fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hitred.prefab using Guid(33e3a4d3458123449b696304cb4838fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d1fc23a32b23474cf037e321a1fa9b') in 0.008104 seconds
+  Import took 0.011167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Moon/Prefab/Moon.prefab
+  artifactKey: Guid(b8c3663b5d8db8f4590c020938031620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Moon/Prefab/Moon.prefab using Guid(b8c3663b5d8db8f4590c020938031620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f857207d1ce07ae944a0df24de8017') in 0.013089 seconds
+  Import took 0.016068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/Right Controller.prefab
+  artifactKey: Guid(ea147585d2d53664ea6492d2ce9ce2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/Right Controller.prefab using Guid(ea147585d2d53664ea6492d2ce9ce2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba48a63c9105382ebfcf021e0b3bb91') in 0.022922 seconds
+  Import took 0.026111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/Belly Menu.prefab
+  artifactKey: Guid(63a30dfdb739369469ab93c00b23a4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/Belly Menu.prefab using Guid(63a30dfdb739369469ab93c00b23a4ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf26a48d0e2bdbbaef157b78943bd8a') in 0.437673 seconds
+  Import took 0.441772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/New Projectile.prefab
+  artifactKey: Guid(1fa6032d673493742aaa90992b8db69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/New Projectile.prefab using Guid(1fa6032d673493742aaa90992b8db69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3121c2e9afd67cad0412bd7c93118171') in 0.037632 seconds
+  Import took 0.040773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/Avatar/Avatar.prefab
+  artifactKey: Guid(f7f70635b6d1fb548929e02343b71c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/Avatar/Avatar.prefab using Guid(f7f70635b6d1fb548929e02343b71c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d58f3496c75237f535f574299a7e5af') in 0.021178 seconds
+  Import took 0.024451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Mars/Prefab/Mars.prefab
+  artifactKey: Guid(b3ed07b6e415aa14b9f1174a498209f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Mars/Prefab/Mars.prefab using Guid(b3ed07b6e415aa14b9f1174a498209f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50bb1cc06adb8ceaca4a82b32024fd9') in 0.013558 seconds
+  Import took 0.017272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/Virtual View Camera.prefab
+  artifactKey: Guid(62e39df6ad8e382478dc56a09ed786f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/Virtual View Camera.prefab using Guid(62e39df6ad8e382478dc56a09ed786f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fea4ce81f96d4feba66050deaa0b3be2') in 0.009338 seconds
+  Import took 0.012377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/Simple Laser Gun Left.prefab
+  artifactKey: Guid(d0ab09dfdb72e614aadbc6e474b9bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/Simple Laser Gun Left.prefab using Guid(d0ab09dfdb72e614aadbc6e474b9bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0ef622a1cbc0b6c5456c8e264ca8e9') in 0.019566 seconds
+  Import took 0.023372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/Left Controller.prefab
+  artifactKey: Guid(6ebec5d9accf988499682c6d94123c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/Left Controller.prefab using Guid(6ebec5d9accf988499682c6d94123c8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abbdc48401fa92779a0a8e14d4ed36f') in 0.026066 seconds
+  Import took 0.030177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate_low.prefab
+  artifactKey: Guid(01ce426e118fb2147b1490a870aa203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate_low.prefab using Guid(01ce426e118fb2147b1490a870aa203f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ecf0f011430d155894ec3d43ac8303') in 0.015643 seconds
+  Import took 0.018754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Resources/TouchControl_R.prefab
+  artifactKey: Guid(3dbce2e6e7d77894cbf30e16782d1e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Resources/TouchControl_R.prefab using Guid(3dbce2e6e7d77894cbf30e16782d1e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de018637be7923cfdee556b10f264720') in 0.013135 seconds
+  Import took 0.016451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hitmodif4.prefab
+  artifactKey: Guid(4882fdf11ea380b46ae2ede66af8e26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hitmodif4.prefab using Guid(4882fdf11ea380b46ae2ede66af8e26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0bfb8cb30edaee933ff1fd2f36a72d') in 0.008931 seconds
+  Import took 0.012472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/ZED/Prefabs/ZED_Rig_Stereo.prefab
+  artifactKey: Guid(e13ee7e0790c7d243b7aa67fe604acac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Prefabs/ZED_Rig_Stereo.prefab using Guid(e13ee7e0790c7d243b7aa67fe604acac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d5d576a941d34d51bc7047393eb61b') in 0.013047 seconds
+  Import took 0.016259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/ZED/Examples/SpatialMapping/Prefabs/ZED_Spatial_Mapping.prefab
+  artifactKey: Guid(0f7ebf7eb8cb0994da72a59d31376ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SpatialMapping/Prefabs/ZED_Spatial_Mapping.prefab using Guid(0f7ebf7eb8cb0994da72a59d31376ee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e5ed55f884d2cbed212b645d459ec4') in 0.008856 seconds
+  Import took 0.011885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Resources/TouchControl_L.prefab
+  artifactKey: Guid(4256ad0d9288d7049af6f77a5fd6fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Resources/TouchControl_L.prefab using Guid(4256ad0d9288d7049af6f77a5fd6fda1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6405716cd9ef3839d7135ba3adc78c88') in 0.012042 seconds
+  Import took 0.015615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/ArUco Drone w Marker Offset.prefab
+  artifactKey: Guid(ef4f398b9b591fe4ebebbe7146e12b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/ArUco Drone w Marker Offset.prefab using Guid(ef4f398b9b591fe4ebebbe7146e12b13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5a005425a471ce6283d167058fe543') in 0.014723 seconds
+  Import took 0.019291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/SkeletonTrackerModule.prefab
+  artifactKey: Guid(ca18a88838151284380d84fc86d327e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/SkeletonTrackerModule.prefab using Guid(ca18a88838151284380d84fc86d327e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66ca38f98442d9367ed3d98f1f010e3') in 0.008025 seconds
+  Import took 0.011291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/LaserShot_Player.prefab
+  artifactKey: Guid(e63673e297726e74c80253a7265f6670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/LaserShot_Player.prefab using Guid(e63673e297726e74c80253a7265f6670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff76e1b78127ccaaf6ec6a289e9ac064') in 0.015024 seconds
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/ZED Model.prefab
+  artifactKey: Guid(34f4bb03f6c6eec42bd67922a8f03fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/ZED Model.prefab using Guid(34f4bb03f6c6eec42bd67922a8f03fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f84d76812e054e4c7db59ce78b8ed5') in 0.012577 seconds
+  Import took 0.015943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ZED/Examples/Common/Resources/GasStation/Prefabs/Environment.prefab
+  artifactKey: Guid(92602f6b190628044bbcaeabddc1ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/GasStation/Prefabs/Environment.prefab using Guid(92602f6b190628044bbcaeabddc1ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd48289b0745471ad92282bb194c220') in 0.267869 seconds
+  Import took 0.271489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Saturn/Prefabs/Saturn.prefab
+  artifactKey: Guid(d3c7c3d08abeb0d4fbcfbb6cd0fbd586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Saturn/Prefabs/Saturn.prefab using Guid(d3c7c3d08abeb0d4fbcfbb6cd0fbd586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee519e30793d568c12b07a583c0d9a6') in 0.016207 seconds
+  Import took 0.019326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/Projectil/projectil.prefab
+  artifactKey: Guid(4e7b33c44f17f9241b73f5df63f4b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/Projectil/projectil.prefab using Guid(4e7b33c44f17f9241b73f5df63f4b365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '863e9a695dd1911e5a43dfe8f3ecf18d') in 0.245092 seconds
+  Import took 0.248413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/ZED/Examples/Plane Detection/Prefabs/VR_Controller.prefab
+  artifactKey: Guid(201563e25e8761a40adb2b278a2fb4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Plane Detection/Prefabs/VR_Controller.prefab using Guid(201563e25e8761a40adb2b278a2fb4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd60535b026ec815c28f628f64c8b9d1f') in 0.014599 seconds
+  Import took 0.017887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/TealBlastExplosion.prefab
+  artifactKey: Guid(75397fce40505504fb362db1229eb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/TealBlastExplosion.prefab using Guid(75397fce40505504fb362db1229eb57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fc966135a61c9c543361cd0c61c52a') in 0.009038 seconds
+  Import took 0.012539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/Drone_Spawner.prefab
+  artifactKey: Guid(7a5f9c3559310d741bc7b70ccea08ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/Drone_Spawner.prefab using Guid(7a5f9c3559310d741bc7b70ccea08ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76422f16f2f27859763226bb06ff6303') in 0.026471 seconds
+  Import took 0.034947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/muzzleFlash.prefab
+  artifactKey: Guid(31414491d0551d749a0a6b7b37d2977a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/muzzleFlash.prefab using Guid(31414491d0551d749a0a6b7b37d2977a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a183e588d353623018bae8670a97d4df') in 0.009984 seconds
+  Import took 0.013845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/Drone.prefab
+  artifactKey: Guid(a3b9834be17b38e45a49e20e2ed1a6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/Drone.prefab using Guid(a3b9834be17b38e45a49e20e2ed1a6ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d2687d252bc8dcd25f6dbb2f9ab874') in 0.439972 seconds
+  Import took 0.447202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/ChooseTrackedObjectButton.prefab
+  artifactKey: Guid(9a9abb59ae735424f9e215df22aa3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/ChooseTrackedObjectButton.prefab using Guid(9a9abb59ae735424f9e215df22aa3348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbf59fcf1829dfa25492145cf54c55a') in 0.154283 seconds
+  Import took 0.157492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Mercury/Prefab/Mercury.prefab
+  artifactKey: Guid(eb2e97fe12b93c746bd9a351d86f5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Mercury/Prefab/Mercury.prefab using Guid(eb2e97fe12b93c746bd9a351d86f5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a028d80adfe6c4af59914f4d9b16d6') in 0.014268 seconds
+  Import took 0.017222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/Explosion.prefab
+  artifactKey: Guid(1a3c0e171154f394e9dc762e4fe151fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/Explosion.prefab using Guid(1a3c0e171154f394e9dc762e4fe151fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b6850116fd871c5f0f232765b7720d') in 0.009787 seconds
+  Import took 0.013677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ZED/Examples/Object Detection/Prefabs/2D Bounding Box.prefab
+  artifactKey: Guid(a71fe20b5d673e34fb3fef09b4bb6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Object Detection/Prefabs/2D Bounding Box.prefab using Guid(a71fe20b5d673e34fb3fef09b4bb6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79de78369fe4ec9b650be471eb40705e') in 0.008818 seconds
+  Import took 0.012033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/DamageSmoke_FX/Damage.prefab
+  artifactKey: Guid(b4ff3739b04dee94d9ec74bb8f883db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/DamageSmoke_FX/Damage.prefab using Guid(b4ff3739b04dee94d9ec74bb8f883db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0d2492cf2fb8f16d83010bbacc9190') in 0.009675 seconds
+  Import took 0.013479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/Avatar/ybot.prefab
+  artifactKey: Guid(33f647073f764014ea539028af802721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/Avatar/ybot.prefab using Guid(33f647073f764014ea539028af802721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dece215177a8a72b157fabf57ded764f') in 0.024385 seconds
+  Import took 0.027967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Sun/Prefab/sun.prefab
+  artifactKey: Guid(90171c18b24f80b49a778d31cac65a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Sun/Prefab/sun.prefab using Guid(90171c18b24f80b49a778d31cac65a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda9515337c6b478fe594a95118dbc06') in 0.011266 seconds
+  Import took 0.014436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/ZED/Examples/Planetarium/Prefabs/Planetarium.prefab
+  artifactKey: Guid(dda0baf117c99c04dbb8fb1c9e2d1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Prefabs/Planetarium.prefab using Guid(dda0baf117c99c04dbb8fb1c9e2d1c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23f1c1cf85032496dd41dc99eb278ea2') in 0.196232 seconds
+  Import took 0.200513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/ZED/Examples/Plane Detection/Prefabs/Capsule_Follower.prefab
+  artifactKey: Guid(426deaf652deccc4ab8025e0222d5b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Plane Detection/Prefabs/Capsule_Follower.prefab using Guid(426deaf652deccc4ab8025e0222d5b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d76e8a172d0b57ca4003bb49b00c3b9') in 0.011232 seconds
+  Import took 0.014262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/ZED/SDK/Helpers/Resources/PrefabsUI/Warning_VR.prefab
+  artifactKey: Guid(3a45ae540ff8e0b44867ebc77430bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/SDK/Helpers/Resources/PrefabsUI/Warning_VR.prefab using Guid(3a45ae540ff8e0b44867ebc77430bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a8b2ccc4d65e38023af4699b6e75b83') in 0.009553 seconds
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/Muzzleflash/MuzzleflashUpdate.prefab
+  artifactKey: Guid(f0def316212214f4cae323340733cdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/Muzzleflash/MuzzleflashUpdate.prefab using Guid(f0def316212214f4cae323340733cdd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a149294137da6d4efdec38b0a94b250c') in 0.010501 seconds
+  Import took 0.015258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Venus/Prefab/Venus.prefab
+  artifactKey: Guid(a5c94c0f0611b54449978f47b4cb3ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Venus/Prefab/Venus.prefab using Guid(a5c94c0f0611b54449978f47b4cb3ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad33d16e28159891be9596ac8efe2e30') in 0.014814 seconds
+  Import took 0.018189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/ZED/Examples/Common/Prefabs/Environment.prefab
+  artifactKey: Guid(7e169b397f8713548a9c127a055faf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Prefabs/Environment.prefab using Guid(7e169b397f8713548a9c127a055faf4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a832501b333c4d90dd96c255c2a78a0') in 0.136107 seconds
+  Import took 0.139887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/Explosion_Small.prefab
+  artifactKey: Guid(38ed3d904e03c484ebb1228d2cffa70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/Explosion_Small.prefab using Guid(38ed3d904e03c484ebb1228d2cffa70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463185a946bac6bc80e22853f944dfd4') in 0.009429 seconds
+  Import took 0.013155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Uranus/Prefab/Uranus.prefab
+  artifactKey: Guid(80125df89bfb33b4ba47ea512e2e34ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Uranus/Prefab/Uranus.prefab using Guid(80125df89bfb33b4ba47ea512e2e34ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78960c222e36a3a109efe9a05317e9f7') in 0.013735 seconds
+  Import took 0.017017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/ZED/Examples/SpatialMapping/Resources/Physics/Sphere.prefab
+  artifactKey: Guid(f87cb548c8b390e4f87e323d6a74c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SpatialMapping/Resources/Physics/Sphere.prefab using Guid(f87cb548c8b390e4f87e323d6a74c701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2360f4e4aafe323d5d30b32d732cd15') in 0.012076 seconds
+  Import took 0.015528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/Warning Message.prefab
+  artifactKey: Guid(fcf345f2c0c25554db8849b0f3db8c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/Warning Message.prefab using Guid(fcf345f2c0c25554db8849b0f3db8c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826dc8f4b45570075c25b3bbdbd920f4') in 0.007754 seconds
+  Import took 0.010671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ZED/Examples/SpatialMapping/ZomShooter/Prefabs/ZomBunny.prefab
+  artifactKey: Guid(c5d994fffa25d764a8ab3f9828f3e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SpatialMapping/ZomShooter/Prefabs/ZomBunny.prefab using Guid(c5d994fffa25d764a8ab3f9828f3e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f996e2307a1f0bd2bba5cd30601272a') in 0.491679 seconds
+  Import took 0.495313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/ZED Mini Model.prefab
+  artifactKey: Guid(236c94d35a12ced47a8fa7623782c127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Prefabs/ZED Mini Model.prefab using Guid(236c94d35a12ced47a8fa7623782c127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a254a5cda174757f1508f1701b72ce26') in 0.013501 seconds
+  Import took 0.016657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Prefabs/Avatar/ybot_hands_closed.prefab
+  artifactKey: Guid(b2033efe657eddf4bbe61be41cc051bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Prefabs/Avatar/ybot_hands_closed.prefab using Guid(b2033efe657eddf4bbe61be41cc051bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a685d6cb1b6c257e760d798363bc6e3b') in 0.019803 seconds
+  Import took 0.023238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Drone_Spawn_FX/Particle System.prefab
+  artifactKey: Guid(8b0db3abea0428e4db88e90e8070175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Drone_Spawn_FX/Particle System.prefab using Guid(8b0db3abea0428e4db88e90e8070175f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19281173cae893dfa1f58b8822c4c13c') in 0.010102 seconds
+  Import took 0.013924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ZED/Examples/Plane Detection/Prefabs/FlyingBunny.prefab
+  artifactKey: Guid(0bcfb109574c6044a8d247157698abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Plane Detection/Prefabs/FlyingBunny.prefab using Guid(0bcfb109574c6044a8d247157698abd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0650bc491843a268aedc0e80f9905284') in 0.020428 seconds
+  Import took 0.024013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/ZED/Examples/Plane Detection/Prefabs/Laser Pointer Bead.prefab
+  artifactKey: Guid(059643d321daca8498088bf53a3c033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Plane Detection/Prefabs/Laser Pointer Bead.prefab using Guid(059643d321daca8498088bf53a3c033d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a5743cd5aa27c7c243992b4921b3b25') in 0.038604 seconds
+  Import took 0.041878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/explosion/Explosionreimport.prefab
+  artifactKey: Guid(0a1d5e11a5062a341bb5b25b0495a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/explosion/Explosionreimport.prefab using Guid(0a1d5e11a5062a341bb5b25b0495a7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b336adadc61f9e3351deb5061648c652') in 0.009358 seconds
+  Import took 0.013824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hit.prefab
+  artifactKey: Guid(9739ca11af02b7848a5244d752070b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Hit_FX/hit.prefab using Guid(9739ca11af02b7848a5244d752070b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a73ebc6f69d1f6627877e7933843027a') in 0.008679 seconds
+  Import took 0.012317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/DamageSmoke_FX/reactor flameandsmoke.prefab
+  artifactKey: Guid(7364e4fd8034b1644a02bf942224a4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/DamageSmoke_FX/reactor flameandsmoke.prefab using Guid(7364e4fd8034b1644a02bf942224a4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88e215704fb9ec6431718f567c5016a') in 0.009782 seconds
+  Import took 0.014304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Prefabs/LaserShot_Drone.prefab
+  artifactKey: Guid(777ff67b6586f6449b9b9dd9f6631430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Prefabs/LaserShot_Drone.prefab using Guid(777ff67b6586f6449b9b9dd9f6631430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fd1cf688ae35e1fd7d8e4cef86cd31') in 0.015179 seconds
+  Import took 0.018884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/TealBlastExplosion_Small.prefab
+  artifactKey: Guid(7a715ae887deae9478eca438b9087345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/OpenCV ArUco Detection/Prefabs/TealBlastExplosion_Small.prefab using Guid(7a715ae887deae9478eca438b9087345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc58384b7d935aac8e4bc467a69bdd8d') in 0.009181 seconds
+  Import took 0.012480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/ZED/SDK/Helpers/Resources/PrefabsUI/Warning.prefab
+  artifactKey: Guid(bb4588b67b8b00f45a51b88ff2294490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/SDK/Helpers/Resources/PrefabsUI/Warning.prefab using Guid(bb4588b67b8b00f45a51b88ff2294490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62af3a6d2fbc1ab04a1d38b92cd9cdd8') in 0.010025 seconds
+  Import took 0.013225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8798345f3fbad0cb7b143fac6d7ebe') in 0.032531 seconds
+  Import took 0.035598 seconds .
+

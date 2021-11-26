@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.7f1 (dd97f2c94397) revision 14522354'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 32658 MB
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 32658 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50746
+53414
 Successfully changed project path to: C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap
 C:/Users/VARLAB/Documents/GitHub/BodySwap/BodySwap
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.14 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 67.12 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,258 +35,423 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003717 seconds.
+Registered in 0.003269 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.56 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 60.75 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.738 seconds
+- Completed reload, in  1.740 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008324 seconds.
+Registered in 0.010772 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.20 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 42.43 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.578 seconds
+- Completed reload, in  1.501 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.92 ms, found 5 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1584 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.6 MB.
-System memory in use after: 76.4 MB.
+Unloading 1771 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.3 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2029.
-Total: 3.511800 ms (FindLiveObjects: 0.284300 ms CreateObjectMapping: 0.081400 ms MarkObjects: 3.019800 ms  DeleteObjects: 0.124300 ms)
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2215.
+Total: 3.234800 ms (FindLiveObjects: 0.200100 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.831300 ms  DeleteObjects: 0.117000 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Webcam.cs
   artifactKey: Guid(79d04d67d790d7948abf257865d805df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Webcam.cs using Guid(79d04d67d790d7948abf257865d805df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd3996e374e477521183d2586cee1e2') in 0.025400 seconds
-  Import took 0.030064 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004785 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.9 MB.
-System memory in use after: 76.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2033.
-Total: 2.557400 ms (FindLiveObjects: 0.243200 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.177800 ms  DeleteObjects: 0.080600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005609 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 75.9 MB.
-System memory in use after: 76.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2037.
-Total: 2.682300 ms (FindLiveObjects: 0.354700 ms CreateObjectMapping: 0.054900 ms MarkObjects: 2.186600 ms  DeleteObjects: 0.084300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005485 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2042.
-Total: 2.428700 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.051100 ms MarkObjects: 2.120700 ms  DeleteObjects: 0.077400 ms)
+Start importing Assets/Webcam.cs using Guid(79d04d67d790d7948abf257865d805df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a295a13c2d0d89484a1e0ae53533240e') in 0.029339 seconds
+  Import took 0.035304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8146.705222 seconds.
-  path: Assets/CameraFOV.cs
-  artifactKey: Guid(5589d35dac9a64e49b1f0cad7f5f4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraFOV.cs using Guid(5589d35dac9a64e49b1f0cad7f5f4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9357a3838e3dee6e2a41d043b58c21') in 0.019703 seconds
-  Import took 0.023757 seconds .
+  Time since last request: 23.246495 seconds.
+  path: Assets/Webcam.cs
+  artifactKey: Guid(79d04d67d790d7948abf257865d805df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Webcam.cs using Guid(79d04d67d790d7948abf257865d805df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '302ea2167cdd118785cc1100ece5b714') in 0.006100 seconds
+  Import took 0.010513 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005316 seconds.
+Registered in 0.005400 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
+- Completed reload, in  1.171 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
+Unloading 1709 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2046.
-Total: 2.443500 ms (FindLiveObjects: 0.288000 ms CreateObjectMapping: 0.090500 ms MarkObjects: 1.992800 ms  DeleteObjects: 0.070500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005302 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.030 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2050.
-Total: 2.118900 ms (FindLiveObjects: 0.173800 ms CreateObjectMapping: 0.049700 ms MarkObjects: 1.832600 ms  DeleteObjects: 0.061100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006203 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.79 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1573 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2054.
-Total: 2.273500 ms (FindLiveObjects: 0.243900 ms CreateObjectMapping: 0.053000 ms MarkObjects: 1.905800 ms  DeleteObjects: 0.069300 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2219.
+Total: 2.319900 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.067500 ms MarkObjects: 1.940300 ms  DeleteObjects: 0.077900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1213.652189 seconds.
-  path: Assets/CameraFOV.cs
-  artifactKey: Guid(5589d35dac9a64e49b1f0cad7f5f4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CameraFOV.cs using Guid(5589d35dac9a64e49b1f0cad7f5f4924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67aa5b0e0356c7b65be74dde48ae463') in 0.008013 seconds
-  Import took 0.011774 seconds .
+  Time since last request: 174.018084 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/Arrow.obj
+  artifactKey: Guid(1a688f08ca1f8b742a0b962a882e12ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/Arrow.obj using Guid(1a688f08ca1f8b742a0b962a882e12ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d8a4a9370fe2784422f4fa160ceab0') in 0.146477 seconds
+  Import took 0.151339 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006541 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.426 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2057.
-Total: 2.500600 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.127300 ms MarkObjects: 1.999400 ms  DeleteObjects: 0.071800 ms)
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Models/Gun/lowgunvive.FBX
+  artifactKey: Guid(84b315c7fd0079f4aaa4ee9a3ca99947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Models/Gun/lowgunvive.FBX using Guid(84b315c7fd0079f4aaa4ee9a3ca99947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88401ebb7ae483027a7fabb675256083') in 0.094233 seconds
+  Import took 0.097976 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.121 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2061.
-Total: 3.526700 ms (FindLiveObjects: 0.187500 ms CreateObjectMapping: 0.059100 ms MarkObjects: 3.206500 ms  DeleteObjects: 0.072500 ms)
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring1.FBX
+  artifactKey: Guid(5779018d3465a054f8add2a09ea26d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring1.FBX using Guid(5779018d3465a054f8add2a09ea26d26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2092756db5e1f846f1932b8acd5010') in 0.021234 seconds
+  Import took 0.024999 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004627 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2065.
-Total: 2.487100 ms (FindLiveObjects: 0.403300 ms CreateObjectMapping: 0.056200 ms MarkObjects: 1.962900 ms  DeleteObjects: 0.063100 ms)
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/RotationRing.obj
+  artifactKey: Guid(b55e2282676d9db4e88147c07009938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/RotationRing.obj using Guid(b55e2282676d9db4e88147c07009938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f672acbc13a3f502a8e3612cef542f31') in 0.046939 seconds
+  Import took 0.050341 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004614 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1572 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.0 MB.
-System memory in use after: 76.1 MB.
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/particleEmitterMesh.fbx
+  artifactKey: Guid(f87621cb5302b4c4cb134878fabfc4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/particleEmitterMesh.fbx using Guid(f87621cb5302b4c4cb134878fabfc4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138f65361b394e6e1d68df97840f09f7') in 0.041030 seconds
+  Import took 0.044356 seconds .
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2069.
-Total: 3.568100 ms (FindLiveObjects: 0.414600 ms CreateObjectMapping: 0.130700 ms MarkObjects: 2.932500 ms  DeleteObjects: 0.088100 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Asteroids/Prefabs/Asteroid_1.FBX
+  artifactKey: Guid(634e9c4c7897c8c44a0067d9aa92938b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Asteroids/Prefabs/Asteroid_1.FBX using Guid(634e9c4c7897c8c44a0067d9aa92938b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c406dea98d41dd3e04490dffa00b3d') in 0.229068 seconds
+  Import took 0.232336 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/ZED/Examples/Plane Detection/Models/PC_BaseBall_Bat_LOD_0.FBX
+  artifactKey: Guid(624b5e6716f850143b1b3881a8423407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Plane Detection/Models/PC_BaseBall_Bat_LOD_0.FBX using Guid(624b5e6716f850143b1b3881a8423407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee7f052997c0fbdb06566ca028dd75') in 0.033223 seconds
+  Import took 0.036357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring2.FBX
+  artifactKey: Guid(0df052d726779b8489d43f2d8f62fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring2.FBX using Guid(0df052d726779b8489d43f2d8f62fcf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26180673c2ae114843f3b7ddf0fec76e') in 0.032830 seconds
+  Import took 0.036978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring8.FBX
+  artifactKey: Guid(1edb0d7b93ae47543aa5331a80470a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring8.FBX using Guid(1edb0d7b93ae47543aa5331a80470a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2e33368773b67ac1c64941877b7797') in 0.026028 seconds
+  Import took 0.030436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/projectil3.fbx
+  artifactKey: Guid(62e0ff87ac95bea4a8006c89ab2eb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/projectil3.fbx using Guid(62e0ff87ac95bea4a8006c89ab2eb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca34049f90a3ea40c693fb5c294f1636') in 0.020112 seconds
+  Import took 0.024122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Models/Avatar.fbx
+  artifactKey: Guid(67534265227a2ed4b9304aceb7d751ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Models/Avatar.fbx using Guid(67534265227a2ed4b9304aceb7d751ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff7b0e7125708b717df97ea79f0fc98a') in 0.099932 seconds
+  Import took 0.103916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Models/Drone/Drone.fbx
+  artifactKey: Guid(f21e4ad769ebbd040b3fb9537e16fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Models/Drone/Drone.fbx using Guid(f21e4ad769ebbd040b3fb9537e16fa56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79e1fc403c390152695be7eb01dbd28') in 0.032895 seconds
+  Import took 0.036860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate_low2.fbx
+  artifactKey: Guid(08b3b6eb21036fb4194cafd599e74c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate_low2.fbx using Guid(08b3b6eb21036fb4194cafd599e74c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c987e6e669d2158499e302829d21df3') in 0.021810 seconds
+  Import took 0.025568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Asteroids/Prefabs/Asteroid_2.FBX
+  artifactKey: Guid(04ea5c7561081d54ba31a7a4a990c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Asteroids/Prefabs/Asteroid_2.FBX using Guid(04ea5c7561081d54ba31a7a4a990c494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec90602fe1d20e5328a4c278392946e') in 0.022004 seconds
+  Import took 0.025148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring6.FBX
+  artifactKey: Guid(46a2fe0ee08b7fd4ea8910324e06954b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring6.FBX using Guid(46a2fe0ee08b7fd4ea8910324e06954b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0aea05e23f28260c4cea14dddb18273') in 0.017356 seconds
+  Import took 0.020517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring9.FBX
+  artifactKey: Guid(59f9d2b67662cde409133ee7ca403a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring9.FBX using Guid(59f9d2b67662cde409133ee7ca403a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aab2b543739f0ceba1b883b3efc37fd') in 0.016698 seconds
+  Import took 0.020021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/Cross.obj
+  artifactKey: Guid(23329beba7eeb5844a9879ff9092820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/Cross.obj using Guid(23329beba7eeb5844a9879ff9092820f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88d10d167c7ad23ef0c9f1883d0ec52') in 0.026177 seconds
+  Import took 0.029603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Saturn/Prefabs/saturnring256tri.fbx
+  artifactKey: Guid(5cfe718d5c6909648b90bf3658856525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Saturn/Prefabs/saturnring256tri.fbx using Guid(5cfe718d5c6909648b90bf3658856525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1694d64cc3d9b8de4f268ac71cf28d0d') in 0.018285 seconds
+  Import took 0.022328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/ZED/Examples/SpatialMapping/ZomShooter/Prefabs/Zombunny.fbx
+  artifactKey: Guid(be66986effd141b4992d2d78be127139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SpatialMapping/ZomShooter/Prefabs/Zombunny.fbx using Guid(be66986effd141b4992d2d78be127139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38532d4b77bcd517a0c608307bc03668') in 0.041616 seconds
+  Import took 0.045549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/CheckMark.obj
+  artifactKey: Guid(6c2345b7ca65cac4a9e5d090078612eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/CheckMark.obj using Guid(6c2345b7ca65cac4a9e5d090078612eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c87d5caca46fbcd26739c44e67a1176') in 0.022939 seconds
+  Import took 0.026849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ZED/Examples/SkeletonTracking/Models/ybot.fbx
+  artifactKey: Guid(7d59d5ae183bf5f4d9a5e0d075c1d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/SkeletonTracking/Models/ybot.fbx using Guid(7d59d5ae183bf5f4d9a5e0d075c1d978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b139c3f628568e835b5fb04e9fe05c') in 0.052268 seconds
+  Import took 0.055808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring7.FBX
+  artifactKey: Guid(45c1464a68ce69641b82ca003d7607c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring7.FBX using Guid(45c1464a68ce69641b82ca003d7607c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2735edb6b6743fa5ff08495afa7a8984') in 0.019449 seconds
+  Import took 0.022622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring5.FBX
+  artifactKey: Guid(7f5dc638bfea18146acaf2b02e281b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring5.FBX using Guid(7f5dc638bfea18146acaf2b02e281b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eedc70c3e129f1d37982c90bef886b4') in 0.019345 seconds
+  Import took 0.022522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ringIcon.FBX
+  artifactKey: Guid(9c0f9accaba0cc74396d13f733326239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ringIcon.FBX using Guid(9c0f9accaba0cc74396d13f733326239) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1961d50bc4884bfe97113d58cdb5b777') in 0.021002 seconds
+  Import took 0.024675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/Projectil/particles mesh.fbx
+  artifactKey: Guid(3723b5eb4d3ce884cbfbbab1ffff636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/Projectil/particles mesh.fbx using Guid(3723b5eb4d3ce884cbfbbab1ffff636c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4cf03577304e0fa95a4ac06e0e0e1b') in 0.028319 seconds
+  Import took 0.032280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Models/Player/DamageSphere.obj
+  artifactKey: Guid(665289d4186100e47a0ab93e197b77d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Models/Player/DamageSphere.obj using Guid(665289d4186100e47a0ab93e197b77d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e99421db7e42cfb1ba7514dcfac42628') in 0.031385 seconds
+  Import took 0.034596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/ZED/Examples/Dark Room/DiscoBall.obj
+  artifactKey: Guid(37000bced5dd1dd4091ca59f0274bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Dark Room/DiscoBall.obj using Guid(37000bced5dd1dd4091ca59f0274bb80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469036c3d29a569e9efa412735c37703') in 0.027213 seconds
+  Import took 0.030753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring4.FBX
+  artifactKey: Guid(28efa33f5f525d6469bd11164ebce236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring4.FBX using Guid(28efa33f5f525d6469bd11164ebce236) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f386319ddc0cede465dc1c75b40d2509') in 0.021123 seconds
+  Import took 0.024509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/Projectil/projectil3.fbx
+  artifactKey: Guid(312786cc3725a904f87992bd00d6a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Projectile_FX/Projectil/projectil3.fbx using Guid(312786cc3725a904f87992bd00d6a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2bf1a06d6f81c97f69e22ee7a615497') in 0.028789 seconds
+  Import took 0.032257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/ZEDMini.fbx
+  artifactKey: Guid(8b79161667c79a24d9aaf0abc511ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/ZEDMini.fbx using Guid(8b79161667c79a24d9aaf0abc511ef9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a89bd2c4d4a3fc68b1c19d2b4035c9') in 0.025283 seconds
+  Import took 0.029054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/ButtonTile.obj
+  artifactKey: Guid(605b512cea4293d44acbf862c3dc78b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/ButtonTile.obj using Guid(605b512cea4293d44acbf862c3dc78b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d5b5ed7c5d994241f91df80ec550dd') in 0.041205 seconds
+  Import took 0.044409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/icosphere.fbx
+  artifactKey: Guid(30b0c87680e76604a959637052b5e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/icosphere.fbx using Guid(30b0c87680e76604a959637052b5e8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5ea7ef18f00f47c601d04886072b8e') in 0.021084 seconds
+  Import took 0.024204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/TouchControl_L.obj
+  artifactKey: Guid(374be1cb375718b4dbe98a133122f691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/TouchControl_L.obj using Guid(374be1cb375718b4dbe98a133122f691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1273c21a429b4295f2e8769ae8ac265d') in 0.034439 seconds
+  Import took 0.038084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Models/Gun/old/BlasterShot.obj
+  artifactKey: Guid(06b32e01de1fb1745b9ed904e486fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Models/Gun/old/BlasterShot.obj using Guid(06b32e01de1fb1745b9ed904e486fe8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e23bfae083891bf4f9cc9ab3101649') in 0.027318 seconds
+  Import took 0.030792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/ZED/Examples/Common/Resources/GasStation/Prefabs/GasStation.fbx
+  artifactKey: Guid(a08b16a2d04d9a14bb2142aca8d1b629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/GasStation/Prefabs/GasStation.fbx using Guid(a08b16a2d04d9a14bb2142aca8d1b629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad49b9fc7ae4b188abc352908b17eb76') in 0.030197 seconds
+  Import took 0.034517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/Plane1x1.FBX
+  artifactKey: Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/Plane1x1.FBX using Guid(9d0862121c112ec4abc229920df08581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336e1ba265bfbfd92dc12bf6aeb58c72') in 0.053866 seconds
+  Import took 0.057619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/BeveledCube.obj
+  artifactKey: Guid(a28085a0ca0ab2a4593d19f621ffad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/BeveledCube.obj using Guid(a28085a0ca0ab2a4593d19f621ffad28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b434dd6f560b5ada2796f83b569b252') in 0.029827 seconds
+  Import took 0.033590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/ZED.fbx
+  artifactKey: Guid(845c8a084f725b9418a9d91dcc2d757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/ZED.fbx using Guid(845c8a084f725b9418a9d91dcc2d757a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33354d8fe3fc35a2fc6982ae862f66a') in 0.024126 seconds
+  Import took 0.028181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring3.FBX
+  artifactKey: Guid(dd125fedfd481f449a5aff7fcc291745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Orbits/Prefabs/ring3.FBX using Guid(dd125fedfd481f449a5aff7fcc291745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e5099d767d4b76f859b1006cf0b98e7') in 0.029572 seconds
+  Import took 0.033132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/ZED/Tools/Mixed Reality Calibration/Models/TouchControl_R.obj
+  artifactKey: Guid(becc5fc43dc4c104097028b9f60c9424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Tools/Mixed Reality Calibration/Models/TouchControl_R.obj using Guid(becc5fc43dc4c104097028b9f60c9424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75dd706a0fff5835bbb3366feecb28b4') in 0.039703 seconds
+  Import took 0.042766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/ZED/Examples/Movie Screen/Speakers/Speakers.fbx
+  artifactKey: Guid(a9d631e057afa6b4f862dc8e39847f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Movie Screen/Speakers/Speakers.fbx using Guid(a9d631e057afa6b4f862dc8e39847f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9301ad66d48a765722e83523800eeb1') in 0.021798 seconds
+  Import took 0.026094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/CirclePlane12v.FBX
+  artifactKey: Guid(3d152f67f64ca4e4a8b6fd7697f7bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Drone Shooter/Resources/Muzzleflash_FX/CirclePlane12v.FBX using Guid(3d152f67f64ca4e4a8b6fd7697f7bf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a292a6a404f94c9b80b13d0b0da8446') in 0.024217 seconds
+  Import took 0.027958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate2.fbx
+  artifactKey: Guid(71dba5f8b9a67a5459c81163c273f120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Common/Resources/Crate/Prefabs/Crate2.fbx using Guid(71dba5f8b9a67a5459c81163c273f120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a88e86c9e8b8a97e57053e814debe7') in 0.026189 seconds
+  Import took 0.029722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/ZED/Examples/Planetarium/Resources/Sun/Prefab/Sunburst.fbx
+  artifactKey: Guid(9d36f0a5bbca9254e9aa2d92362425b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ZED/Examples/Planetarium/Resources/Sun/Prefab/Sunburst.fbx using Guid(9d36f0a5bbca9254e9aa2d92362425b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5030d3ffad655ea39df45dfdff394561') in 0.025234 seconds
+  Import took 0.028726 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

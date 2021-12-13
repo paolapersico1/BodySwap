@@ -448,7 +448,7 @@ public class ZEDMixedRealityPlugin : MonoBehaviour
 			sl.CalibrationParameters parameters = zedCamera.CalibrationParametersRectified;
             //modificare offset.z per adattare la distanza panel - view
 			scaleFromZED = ComputeSizePlaneWithGamma (new sl.Resolution ((uint)zedCamera.ImageWidth, (uint)zedCamera.ImageHeight),
-				perception_distance, zed2eye_distance, offset.z + 7,
+				perception_distance, zed2eye_distance, offset.z + 12,
 				ComputeFocal (new sl.Resolution ((uint)XRSettings.eyeTextureWidth, (uint)XRSettings.eyeTextureHeight)),
 				parameters.leftCam.fx);
 
